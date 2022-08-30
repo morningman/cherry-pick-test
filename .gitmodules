@@ -1,0 +1,3 @@
+[submodule ".github/actions/cherry-pick-bot"]
+	path = .github/actions/cherry-pick-bot
+	url = https://github.com/morningman/cherry-pick-bot.git
