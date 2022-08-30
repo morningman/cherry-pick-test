@@ -27,6 +27,8 @@ jobs:
     name: "Cherry-pick"
     runs-on: ubuntu-latest
     steps:
+      - name: "Checkout ${{ github.ref }} ( ${{ github.sha }} )"
+        uses: actions/checkout@v2
       - uses: ./.github/actions/cherry-pick-bot
         with:
           github_user: morningman
